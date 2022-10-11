@@ -1,0 +1,19 @@
+pip install pymongo
+pip install Flask
+#COMENTARIO si te da error el bson lo instalas pero creo que ya viene por defecto#
+
+
+#PARA EJECUTAR 
+#en consola dentro de la carpeta 
+python app.py
+
+# y te debe de ejecutar en http://localhost:5000/
+las direcciones son:
+
+/buscar
+este es que le mandas una descripcion y te regresa un json con 5 descripciones
+ordenadas de la mas parecida a la menos de las cinco
+
+/person 
+guarda una persona en la collection de persons -- eso seria para 
+la parte del hospital
